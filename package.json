@@ -1,0 +1,18 @@
+{
+  "name": "@cultnet/bot",
+  "version": "0.1.3",
+  "main": "dist/bot.js",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/cultnet/bot.git"
+  },
+  "scripts": {
+    "build": "lsc -o dist -c src/bot"
+  },
+  "dependencies": {
+    "@cultnet/bus": "^0.1.2"
+  },
+  "devDependencies": {
+    "livescript": "^1.6.0"
+  }
+}
